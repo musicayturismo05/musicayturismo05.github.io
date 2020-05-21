@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <link rel="stylesheet" href="main.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -70,25 +71,54 @@ transition: transform ease-in-out 1000ms;
 
   </style>
 </head>
-
 <body>
-  <h1>Practica 12. Grid System</h1>
-  <p><strong>1. 6 columnas iguales:
-      <em>"patron: repeat(6,1fr), roja:2, amarilla: 3 - 5, purple: 6"</em></strong></p>
+<div class="grid-layout">
+  <header>
+    <h1>Practicas HTML/CSS 2020</h1>
+    <p class="header__left-side"><strong>Verónica Benítez Ortega</strong></p>
+    <p class="header__right-side"><strong>1ºBachillerato C</strong></p>
+  </header>
+  <nav>
+    <a href="p1.html">Practica 1</a>
+    <a href="p2.html">Practica 2</a>
+    <a href="p3.html">Practica 3</a>
+    <a href="p4.html">Practica 4</a>
+    <a href="p5.html">Practica 5</a>
+    <a href="p6.html">Practica 6</a>
+    <a href="p7.html">Practica 7</a>
+    <a href="p8.html">Practica 8</a>
+    <a href="p9.html">Practica 9</a>
+    <a href="p10.html">Practica 10</a>
+    <a href="p11.html">Practica 11</a>
+    <a href="p12a.html">Practica 12a</a>
+    <a href="p12b.html">Practica 12b</a>
+    <a href="p12d.html">Practica 12d</a>
+    <a href="p13.html">Practica 13</a>
+    <a href="p14.html">Practica 14</a>
+  </nav>
 
-  <div class="g-common g-uno">
-    <div class="i-red"></div>
-    <div class="i-yellow"></div>
-    <div class="i-purple"></div>
+  <div class="main">
+    <p><h1>Practica 12. Grid System</h1>
+    <p><strong>1. 6 columnas iguales:
+        <em>"patron: repeat(6,1fr), roja:2, amarilla: 3 - 5, purple: 6"</em></strong></p>
+
+    <div class="g-common g-uno">
+      <div class="i-red"></div>
+      <div class="i-yellow"></div>
+      <div class="i-purple"></div>
+    </div>
+
+    <p><strong>2. 5 filas :
+        <em>"patron: 1fr 4fr 1fr 4fr 1fr, verde:2, azul: 4, negra: 5"</em></strong></p>
+    <div class="g-common g-dos">
+      <div class="i-green"></div>
+      <div class="i-blue"></div>
+      <div class="i-black"></div>
+    </div></p>
   </div>
 
-  <p><strong>2. 5 filas :
-      <em>"patron: 1fr 4fr 1fr 4fr 1fr, verde:2, azul: 4, negra: 5"</em></strong></p>
-  <div class="g-common g-dos">
-    <div class="i-green"></div>
-    <div class="i-blue"></div>
-    <div class="i-black"></div>
-  </div>
+</div>
+
 </body>
 
 </html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css)family=Work+Sans:400,600">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Barra de navegación</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Work Sans", sans-serif;
+      font-weight: 400;
+    }
+
+    .content {
+      background-image: url("https://unsplash.it/1000/1000");
+      height: 200vh;
+      background-size: cover;
+      background-color: #651;
+      color: white;
+      background-blend-mode: multiply;
+    }
+
+    header {
+      background-color: rgb(100, 255, 60);
+      width: 100%;
+      position: fixed;
+      text-align: center;
+      z-index: 999;
+      display: grid;
+      grid-template-columns: 1fr auto minmax(600px, 5fr) 1fr;
+    }
+
+    .logo {
+      grid-column: 2/ span 1;
+    }
+
+    nav {
+      grid-column: 3/ span 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    nav li {
+      margin-left: 3em;
+      margin-bottom: 0;
+    }
+
+    nav a {
+      color: #444;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #000;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="https://raw.githubusercontent.com/sorolla-eso/sorolla-eso.github.io/master/logo.png" width="64px" <nav>
+    <ul>
+      <li><a href="">Inicio</a></li>
+      <li><a href="">Asignaturas</a></li>
+      <li><a href="">Secretaría</a></li>
+      <li><a href="">Contacto</a></li>
+    </ul>
+    </nav>
+  </header>
+  <div class="content">
+    <h2>El contenido aquí...</h2>
+  </div>
+</body>
+
+</html>
