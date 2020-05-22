@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <link rel="stylesheet" href="main.css">
   <title>“Práctica 3. Tablas”</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,77 +32,108 @@
 </head>
 
 <body>
-  <h1>Práctica 3. Tablas</h1>
-  <h2>Tablas sin cabecera</h2>
-  <p><strong>5 filas 3 columnas(5x3)</strong></p>
-  <table>
-    <tr>
-      <td>Col 1</td>
-      <td>Col 2</td>
-      <td>Col 3</td>
-    </tr>
-    <tr>
-      <td>Data 1</td>
-      <td>Data 1</td>
-      <td>Data 1</td>
-    </tr>
-    <tr>
-      <td>Data 2</td>
-      <td>Data 2</td>
-      <td>Data 2</td>
-    </tr>
-    <tr>
-      <td>Data 3</td>
-      <td>Data 3</td>
-      <td>Data 3</td>
-    </tr>
-    <tr>
-      <td>Data 4</td>
-      <td>Data 4</td>
-      <td>Data 4</td>
-    </tr>
-  </table>
-  <p><strong>2 filas 5 columnas(2x5)</strong></p>
-  <table>
-    <tr>
-      <td>Col 1</td>
-      <td>Col 2</td>
-      <td>Col 3</td>
-      <td>Col 4</td>
-      <td>Col 5</td>
-    </tr>
-    <tr>
-      <td>Data 1</td>
-      <td>Data 2</td>
-      <td>Data 3</td>
-      <td>Data 4</td>
-      <td>Data 5</td>
-    </tr>
-  </table>
-  <h2>Tablas con cabecera</h2>
-  <p><strong>4 filas 3 columnas(incluyendo cabecera)(4x3)</strong></p>
-  <table>
-    <tr>
-      <th>Cabecera 1</th>
-      <th>Cabecera 2</th>
-    </tr>
-    <tr>
-      <td>Data 1</td>
-      <td>Data 1</td>
-    </tr>
-    <tr>
-      <td>Data 2</td>
-      <td>Data 2</td>
-    </tr>
-    <tr>
-      <td>Data 3</td>
-      <td>Data 3</td>
-    </tr>
-    <tr>
-      <td>Data 4</td>
-      <td>Data 4</td>
-    </tr>
-  </table>
+
+  <div class="grid-layout">
+    <header>
+      <h1>Practicas HTML/CSS 2020</h1>
+      <p class="header__left-side"><strong>Verónica Benítez Ortega</strong></p>
+      <p class="header__right-side"><strong>1ºBachillerato C</strong></p>
+    </header>
+    <nav>
+      <a href="p1.html">Practica 1</a>
+      <a href="p2.html">Practica 2</a>
+      <a href="p3.html">Practica 3</a>
+      <a href="p4.html">Practica 4</a>
+      <a href="p5.html">Practica 5</a>
+      <a href="p6.html">Practica 6</a>
+      <a href="p7.html">Practica 7</a>
+      <a href="p8.html">Practica 8</a>
+      <a href="p9.html">Practica 9</a>
+      <a href="p10.html">Practica 10</a>
+      <a href="p11.html">Practica 11</a>
+      <a href="p12a.html">Practica 12a</a>
+      <a href="p12b.html">Practica 12b</a>
+      <a href="p12d.html">Practica 12d</a>
+      <a href="p13.html">Practica 13</a>
+      <a href="p14.html">Practica 14</a>
+    </nav>
+
+    <div class="main">
+      <p><h1>Práctica 3. Tablas</h1>
+      <h2>Tablas sin cabecera</h2>
+      <p><strong>5 filas 3 columnas(5x3)</strong></p>
+      <table>
+        <tr>
+          <td>Col 1</td>
+          <td>Col 2</td>
+          <td>Col 3</td>
+        </tr>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 1</td>
+          <td>Data 1</td>
+        </tr>
+        <tr>
+          <td>Data 2</td>
+          <td>Data 2</td>
+          <td>Data 2</td>
+        </tr>
+        <tr>
+          <td>Data 3</td>
+          <td>Data 3</td>
+          <td>Data 3</td>
+        </tr>
+        <tr>
+          <td>Data 4</td>
+          <td>Data 4</td>
+          <td>Data 4</td>
+        </tr>
+      </table>
+      <p><strong>2 filas 5 columnas(2x5)</strong></p>
+      <table>
+        <tr>
+          <td>Col 1</td>
+          <td>Col 2</td>
+          <td>Col 3</td>
+          <td>Col 4</td>
+          <td>Col 5</td>
+        </tr>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+          <td>Data 4</td>
+          <td>Data 5</td>
+        </tr>
+      </table>
+      <h2>Tablas con cabecera</h2>
+      <p><strong>4 filas 3 columnas(incluyendo cabecera)(4x3)</strong></p>
+      <table>
+        <tr>
+          <th>Cabecera 1</th>
+          <th>Cabecera 2</th>
+        </tr>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 1</td>
+        </tr>
+        <tr>
+          <td>Data 2</td>
+          <td>Data 2</td>
+        </tr>
+        <tr>
+          <td>Data 3</td>
+          <td>Data 3</td>
+        </tr>
+        <tr>
+          <td>Data 4</td>
+          <td>Data 4</td>
+        </tr>
+      </table></p>
+    </div>
+
+  </div>
+
 </body>
 
 </html>
