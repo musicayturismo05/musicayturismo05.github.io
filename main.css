@@ -53,9 +53,27 @@ body{
       padding: 10%;
       text-align: left;
       border-bottom: 5px solid white;
+      position: relative;
     }
+    .grid-layout nav a:before{
+        content: "";
+        height: 5px;
+        width: 100%;
+        background-color: #C799F5;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform ease-in-out 500ms;
+      }
+
   .grid-layout  nav a:hover{
       background: #5c2a9d;
+    }
+    .grid-layout nav a:hover:before{
+        transform: scaleX(1);
+    }
     }
 
   .grid-layout  div.main {
