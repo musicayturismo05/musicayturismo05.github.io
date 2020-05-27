@@ -18,6 +18,8 @@
 		background-color: #651;
 		color: white;
 		background-blend-mode: multiply;
+		display: grid;
+		place-items: center;
 	}	
 header{
 	background-color: rgb(100, 255, 60);
@@ -53,9 +55,26 @@ nav a {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 14px;
+	position: relative;
 }
 nav a:hover {
 	color: #000;
+}
+nav a:before{
+	content: "";
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #444;
+	position: absolute;
+	bottom: -0.75em;
+	left: 0;
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform 250ms;
+}
+nav a:hover:before{
+	transform: scaleX(1);
 }
 
 	</style>
@@ -88,6 +107,7 @@ nav a:hover {
     </nav>
 
     <div class="main">
+      <p><div class="main">
       <p><header>
 	<img class="logo" src="https://raw.githubusercontent.com/sorolla-eso/sorolla-eso.github.io/master/logo.png" width="64px" alt="">
 	<nav>
@@ -102,9 +122,13 @@ nav a:hover {
   <div class="content">
 	<h2>El contenido aquí...</h2>
   </div></p>
+
+  </div></p>
     </div>
 
   </div>
+
+    
   
 </body>
 </html>
