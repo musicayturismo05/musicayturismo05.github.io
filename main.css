@@ -74,6 +74,9 @@ font-size: 1.2em;
   .grid-layout  nav a:hover{
       background: #5c2a9d;
     }
+    .grid-layout nav a:hover:before{
+      transform: scaleX(1);
+    }
 
   .grid-layout  div.main {
       background: #f1ebbb;
