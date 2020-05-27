@@ -32,13 +32,13 @@ font-size: 1.2em;
 
   .grid-layout  p.header__left-side {
       text-align: left;
-      padding: 0.1em;
+      padding: 0.3em;
 
     }
 
   .grid-layout  p.header__right-side {
       text-align: right;
-      padding: 0.1em;
+      padding: 0.3em;
     }
 
     .grid-layout nav {
