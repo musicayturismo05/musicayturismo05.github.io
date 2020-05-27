@@ -14,7 +14,6 @@ font-size: 1.2em;
     div.grid-layout {
       display: grid;
       grid-template-columns: 1fr 4fr;
-      grid-gap: 1em;
     }
 
   .grid-layout  header {
