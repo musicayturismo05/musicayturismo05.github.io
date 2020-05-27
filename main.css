@@ -32,11 +32,13 @@ font-size: 1.2em;
 
   .grid-layout  p.header__left-side {
       text-align: left;
+      padding: 0.1em;
 
     }
 
   .grid-layout  p.header__right-side {
       text-align: right;
+      padding: 0.1em;
     }
 
     .grid-layout nav {
@@ -53,6 +55,21 @@ font-size: 1.2em;
       padding: 10%;
       text-align: left;
       border-bottom: 5px solid white;
+      position: relative;
+      box-sizing: border-box;
+    }
+
+    .grid-layout nav a:before{
+      content: "";
+      height: 5px;
+      width: 100%;
+      background-color: #C799F5;
+      position: absolute;
+      top:0;
+      left: 0;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform ease-in-out 500ms;
     }
   .grid-layout  nav a:hover{
       background: #5c2a9d;
